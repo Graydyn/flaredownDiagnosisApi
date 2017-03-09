@@ -57,12 +57,14 @@ class Generic(Resource):
 
       userDf = predict.symptomListToFeatures(symptoms, age, sex, featureDict)
 
-      prediction = mlb.inverse_transform(predict.predictFromModel(model, pcaobj, userDf))
+      predictions, confidences = predict.predictFromModel(model, pcaobj, userDf, mlb)
       predsList = []
-      for pred in prediction[0]:
+      for i in range(0,len(predictions[0])):
+          prediction = predictions[0][i]
+          confidence = confidences[i]
           predsList.append({
-              "name" : pred,
-              "confidence" : 0
+              "name" : prediction,
+              "confidence" : confidence*100
           })
 
       responseJson = json.dumps(predsList)
@@ -72,5 +74,5 @@ class Generic(Resource):
 
 
 if __name__ == "__main__":
-    app.run(debug=False,host='0.0.0.0',port=80)
+    app.run(debug=False,host='0.0.0.0',port=5000)
     #app.run(debug=True)
