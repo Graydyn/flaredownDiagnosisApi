@@ -69,7 +69,7 @@ class Generic(Resource):
 
       responseJson = json.dumps(predsList)
 
-      return responseJson, 200
+      return responseJson, 200, {'Access-Control-Allow-Origin' : '*'}
 
 
 
