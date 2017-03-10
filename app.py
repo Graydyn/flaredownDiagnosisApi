@@ -3,9 +3,11 @@ from flask_restplus import Resource, Api, fields
 import sys
 import predict
 import json
+from flask_cors import CORS
 from sklearn.externals import joblib
 
 app = Flask(__name__)
+CORS(app)
 
 api = Api(app, version='1.0', title='Flaredown Diagnosis API', description='Attempts to diagnosis chronic illness')
 
