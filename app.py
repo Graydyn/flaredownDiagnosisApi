@@ -29,14 +29,14 @@ mlb = joblib.load('mlb.pkl')
 
 def loadFeatures():
     filein = open('features.txt', 'r')
-    featureDict = {}
+    featureList = []
     for feature in filein:
-        if (feature.rstrip('\n') in featureDict):
+        if (feature.rstrip('\n') in featureList):
             print feature
-        featureDict[feature.rstrip('\n')] = 0
-    return featureDict
+        featureList.append(feature.rstrip('\n'))
+    return featureList
 
-featureDict = loadFeatures()
+featureList = loadFeatures()
 
 
 @api.errorhandler
@@ -52,26 +52,29 @@ class Generic(Resource):
     @api.expect(allData)
     def post(self):
 
-      print request.json
       symptoms = request.json['symptoms']
       age = request.json['age']
       sex = request.json['sex']
+      featureDict = dict.fromkeys(featureList, 0)
 
       userDf = predict.symptomListToFeatures(symptoms, age, sex, featureDict)
 
-      predictions, confidences = predict.predictFromModel(model, pcaobj, userDf, mlb)
       predsList = []
-      for i in range(0,len(predictions[0])):
-          prediction = predictions[0][i]
-          confidence = confidences[i]
-          predsList.append({
-              "name" : prediction,
-              "confidence" : confidence*100
-          })
+      if userDf.sum(axis=1)[0] > 1:
+          print userDf.sum(axis=1)[0]
+          predictions, confidences = predict.predictFromModel(model, pcaobj, userDf, mlb)
 
-      responseJson = json.dumps(predsList)
+          for i in range(0,len(predictions[0])):
+              prediction = predictions[0][i]
+              confidence = confidences[i]
+              predsList.append({
+                  "name" : prediction,
+                  "confidence" : confidence*100
+              })
 
-      return responseJson, 200, {'Access-Control-Allow-Origin' : '*'}
+      responseJson = json.loads(json.dumps(predsList))
+
+      return responseJson, 200
 
 
 
