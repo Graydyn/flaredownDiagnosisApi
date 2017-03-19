@@ -1,10 +1,11 @@
 from flask import Flask, request, Response
 from flask_restplus import Resource, Api, fields
 import sys
-import predict
+import predict_mb as predict
 import json
 from flask_cors import CORS
 from sklearn.externals import joblib
+import operator
 
 app = Flask(__name__)
 CORS(app)
@@ -23,12 +24,11 @@ allData = api.model('data', {
 })
 
 
-model = joblib.load('model.pkl')
-pcaobj = joblib.load('pcaobj.pkl')
-mlb = joblib.load('mlb.pkl')
+model = joblib.load('model_mb.pkl')
+mlb = joblib.load('mlb_simple.pkl')
 
 def loadFeatures():
-    filein = open('features.txt', 'r')
+    filein = open('features_rf.txt', 'r')
     featureList = []
     for feature in filein:
         if (feature.rstrip('\n') in featureList):
@@ -53,24 +53,27 @@ class Generic(Resource):
     def post(self):
 
       symptoms = request.json['symptoms']
-      age = request.json['age']
-      sex = request.json['sex']
+      #age = request.json['age']
+      #sex = request.json['sex']
       featureDict = dict.fromkeys(featureList, 0)
 
-      userDf = predict.symptomListToFeatures(symptoms, age, sex, featureDict)
+      #userDf = predict.symptomListToFeatures(symptoms, age, sex, featureDict)
+      userDf = predict.symptomListToFeatures(symptoms, featureDict)
 
       predsList = []
-      if userDf.sum(axis=1)[0] > 1:
-          print userDf.sum(axis=1)[0]
-          predictions, confidences = predict.predictFromModel(model, pcaobj, userDf, mlb)
-
-          for i in range(0,len(predictions[0])):
-              prediction = predictions[0][i]
-              confidence = confidences[i]
-              predsList.append({
-                  "name" : prediction,
-                  "confidence" : confidence*100
-              })
+      if userDf.sum(axis=1)[0] > 0:
+          #predictions, confidences = predict.predictFromModel(model, pcaobj, userDf, mlb)
+          predictions, confidences = predict.predictFromModel(model, userDf, mlb)
+          predDict = dict(zip(predictions, confidences))
+          if len(predDict) > 5:
+            predDictTop5 = dict(sorted(predDict.iteritems(), key=operator.itemgetter(1), reverse=True)[:5])
+          else:
+            predDictTop5 = predDict
+          for prediction, confidence in predDictTop5.iteritems():
+                  predsList.append({
+                      "name" : prediction,
+                      "confidence" : confidence*100
+                  })
 
       responseJson = json.loads(json.dumps(predsList))
 

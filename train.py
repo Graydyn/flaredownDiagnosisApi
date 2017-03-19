@@ -48,6 +48,7 @@ def createXY(df, symptoms):
         combineConditions).reset_index()
     newdf = newdf.merge(symptoms, on=['user_id', 'checkin_date'])
     newdf = newdf.drop(['user_id', 'checkin_date'], axis=1)
+    newdf.to_csv('clean.csv') #write this out so we don't need to train again later
     X = newdf.drop('trackable_name', axis=1)
     Y = newdf['trackable_name'].apply(makeList)  # each row of Y is a list
     mlb = MultiLabelBinarizer()
@@ -87,11 +88,26 @@ def trainRidge():
 
     return rig, pcaobj
 
-df = pd.read_csv("flaredown_export_2017.01.12.csv")
+df = pd.read_csv("export.csv")
 df['checkin_date'] = pd.to_datetime(df['checkin_date'])
 
+#grab list of supported symptoms, it helps to remove the symptoms only reported by one or two users
+symptomslist = []
+infile = open('symptom_list.txt', 'r')
+for line in infile:
+    symptomslist.append(line.split('   ')[0])
+
+def filterer(x):
+    xx = x[x['trackable_type'] == 'Symptom']
+    for symptom in xx['trackable_name'].values:
+        if symptom not in symptomslist:
+            return False
+    return True
+#df = df.drop(['age', 'sex', 'country'], axis=1)
+dfnew = df.groupby('user_id').filter(filterer)
+
 condition_counts = df[df['trackable_type'] == 'Condition']['trackable_name'].value_counts()
-onceoffs = list(condition_counts[condition_counts < 2].keys())
+onceoffs = list(condition_counts[condition_counts < 90].keys())
 cleandf = df.groupby('user_id').filter(filterCondition)
 print "deleting " + str(len(onceoffs)) + " users who have unique condition values"
 

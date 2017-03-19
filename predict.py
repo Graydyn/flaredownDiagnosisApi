@@ -22,6 +22,8 @@ def predictFromModel(model, pcaobj, X_pred, mlb):
 
     thresholded_pred = predict(pred,0.5, 0.1)
     labels = mlb.inverse_transform(thresholded_pred)
+    for classs in mlb.classes_:
+        print classs
     confidence = list(compress(pred[0],thresholded_pred[0]))
     confidence = [normalizeCertainty(x, max(confidence)) for x in confidence]
     return labels,confidence

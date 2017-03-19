@@ -1,0 +1,455 @@
+Fatigue                                                                13740
+Headache                                                               12761
+Nausea                                                                 10080
+Joint pain                                                              9070
+Stomach Pain                                                            7946
+Anxiety                                                                 7593
+Diarrhea                                                                7043
+Brain fog                                                               6401
+Dizziness                                                               5929
+Depression                                                              5734
+Neck pain                                                               5035
+Back pain                                                               4724
+Abdominal pain                                                          4684
+Constipation                                                            4631
+Insomnia                                                                3673
+Muscle pain                                                             3577
+Migraine                                                                3052
+Bloating                                                                2875
+Chest pain                                                              2621
+Fatigue and tiredness                                                   2588
+Shoulder pain                                                           2510
+Dull                                                                    2487
+Sore throat                                                             2397
+Shortness of breath                                                     2355
+Hip pain                                                                2222
+Pelvic pain                                                             2129
+Difficulty concentrating                                                1940
+Gas                                                                     1911
+Leg pain                                                                1904
+Foot pain                                                               1898
+Wrist pain                                                              1891
+Lower Back Pain                                                         1723
+Pain                                                                    1616
+Knee pain                                                               1524
+Chronic pain                                                            1500
+panic attacks                                                           1479
+Vertigo                                                                 1429
+Hand pain                                                               1389
+Stiffness                                                               1369
+Stomach cramps                                                          1354
+Irritability                                                            1328
+nerve pain                                                              1328
+Body aching                                                             1306
+Mood swings                                                             1300
+Acid Reflux                                                             1300
+Anhedonia                                                               1285
+Weakness                                                                1262
+Crying                                                                  1222
+sleepiness                                                              1156
+Muscle twitching                                                        1136
+Stress                                                                  1076
+afternoon sleepiness                                                    1032
+Jaw pain                                                                1022
+acne                                                                     998
+Vomiting                                                                 997
+Cold                                                                     981
+Palpitations                                                             967
+Menstrual cramps                                                         966
+Heartburn                                                                956
+Nasal congestion                                                         949
+bowel movements                                                          937
+heart palpitations                                                       931
+Suicidal ideation                                                        918
+lightheadedness                                                          917
+exhaustion                                                               916
+excess daytime sleepiness                                                901
+Tingling in hands and feet                                               900
+dissociation                                                             894
+Dry eye                                                                  872
+Arm pain                                                                 860
+Self Harm                                                                841
+Sadness                                                                  840
+Eye pain                                                                 833
+Fatigue                                                                  832
+Loss of appetite                                                         830
+muscle weakness                                                          825
+Lower abdomen pain                                                       822
+Muscle spasms                                                            817
+Joint stiffness                                                          814
+Breast pain                                                              811
+Dry skin                                                                 793
+Oversleeping                                                             789
+Intestinal pain                                                          783
+Muscle cramps                                                            779
+Upper back pain                                                          762
+Bloody Stools                                                            744
+Panic Attack                                                             742
+Fever                                                                    739
+Tremor                                                                   713
+Energy                                                                   692
+Ankle pain                                                               689
+Runny nose                                                               689
+Exercise Intolerance                                                     680
+Peeling skin                                                             672
+low energy                                                               671
+Hypomania                                                                666
+Sleeplessness                                                            660
+Hair loss                                                                653
+Unrefreshing Sleep                                                       650
+Mouth sores                                                              640
+Thoughts of self-harm                                                    638
+Lack of Interest                                                         637
+Tachycardia                                                              633
+Blurred vision                                                           630
+Calm                                                                     627
+Low mood                                                                 624
+Agitation                                                                612
+intrusive thoughts                                                       609
+Rib pain                                                                 606
+Night sweats                                                             602
+Dry mouth                                                                594
+Tinnitus                                                                 593
+Flushing                                                                 591
+Difficulty with speech                                                   579
+Stiff neck                                                               577
+Cramps                                                                   573
+Tiredness                                                                573
+Shaking                                                                  571
+itching face                                                             569
+Post-Exertional Malaise                                                  567
+Middle Back Pain                                                         565
+Heat intolerance                                                         563
+Flat affect                                                              563
+Worry                                                                    558
+Cold Extremities                                                         557
+Low motivation                                                           550
+Body aches                                                               539
+Weight loss                                                              537
+burning feet                                                             533
+Bowel Urgency                                                            530
+Memory loss                                                              526
+Low appetite                                                             526
+Noise Sensitivity                                                        522
+Vaginal bleeding                                                         514
+Elbow pain                                                               506
+swelling                                                                 502
+Hallucinations                                                           498
+Peripheral neuropathy                                                    497
+nightmares                                                               488
+IBS                                                                      481
+Fainting                                                                 479
+Frequent urination                                                       479
+Light sensitivity                                                        477
+mood                                                                     476
+Feeling hopeless                                                         475
+Blushing                                                                 473
+tingling                                                                 471
+Trouble finding words                                                    469
+Swollen throat                                                           465
+Cold hands                                                               463
+Random isolated pain                                                     459
+Sensory overload                                                         459
+Cough                                                                    456
+Urinary urgency                                                          455
+Poor Sleep                                                               448
+Mental fatigue                                                           444
+Social anxiety                                                           442
+lethargy                                                                 439
+Feeling unable to cope                                                   439
+Overheating                                                              437
+pins and needles                                                         433
+Unsteadiness                                                             429
+Apathy                                                                   426
+Itching                                                                  425
+Anger                                                                    414
+Finger pain                                                              412
+Joint cracking                                                           405
+Gastrointestinal symptoms                                                402
+Bladder frequency                                                        401
+fast pulse                                                               401
+Tingling in hand                                                         401
+Onychophosis                                                             398
+Tingling hands                                                           397
+Swollen lymph nodes                                                      397
+Weight gain                                                              395
+Excessive sweating                                                       393
+Hunger                                                                   392
+Menstruation                                                             390
+Numbness                                                                 388
+Painful sleep                                                            384
+Breathing pain                                                           383
+low blood pressure                                                       382
+Bowel problems                                                           378
+Concentration                                                            378
+Muscle ache                                                              376
+itchy                                                                    375
+temperature sensitivity                                                  371
+Aura                                                                     367
+Allergy                                                                  367
+Unable to Communicate                                                    367
+Sleep                                                                    366
+hives                                                                    366
+physical fatigue                                                         364
+Fluctuating mood                                                         364
+Rash                                                                     363
+Binge eating                                                             361
+Lack of Motivation                                                       354
+Spotting                                                                 352
+Migraines                                                                352
+scalp itching                                                            351
+Fecal incontinence                                                       351
+Swollen Fingers                                                          351
+Joint weakness                                                           348
+Bumps on skin                                                            347
+Skin Pain                                                                345
+loose stool                                                              340
+complusion                                                               335
+loss of balance                                                          333
+Periods                                                                  333
+Self-Loathing                                                            330
+Dehydration                                                              327
+Memory Problems                                                          327
+Sleep Length                                                             325
+Suicidal Thoughts                                                        324
+Right knee pain                                                          323
+Swollen glands                                                           323
+Head Pressure                                                            321
+pathogical lying                                                         320
+Restless legs                                                            319
+difficulty waking up                                                     319
+Safety behaviours                                                        316
+Uncomfortable                                                            315
+Hemorrhoids                                                              314
+cramping                                                                 314
+Forearm Tendon Pain                                                      308
+Sweating                                                                 306
+slow reflexes                                                            304
+Neuropathy                                                               303
+Digestive distress                                                       302
+Achiness                                                                 302
+Lung Pain                                                                302
+GERD                                                                     302
+adrenaline-chestsqueeze                                                  302
+Confusion                                                                301
+Tension                                                                  300
+Low back pain                                                            300
+Headaches                                                                299
+Tension headache                                                         298
+SI Thoughts                                                              297
+Happiness                                                                297
+left knee pain                                                           294
+Fear of social interaction                                               294
+Guilt                                                                    292
+Hand weakness                                                            290
+Widespread Pain                                                          288
+Distorted time sense                                                     283
+Inflammation                                                             283
+Allodynia                                                                283
+Allergies                                                                282
+mania                                                                    282
+Hyopomania                                                               281
+Cold feet                                                                280
+Hot flashes                                                              279
+Finger swelling                                                          278
+Asthma                                                                   278
+Mucus                                                                    277
+Subluxation                                                              276
+Vaginal pain                                                             276
+appetite                                                                 274
+Sleep Problems                                                           273
+Communication Difficulties                                               273
+clumsiness                                                               273
+Arms Numb                                                                270
+Itchy skin                                                               270
+Mucus in stool                                                           269
+dislocations                                                             267
+Itchy Face                                                               264
+gastroparesis                                                            263
+Word confusion                                                           263
+Esophageal Pain                                                          262
+Wheezing                                                                 260
+Bone pain                                                                258
+Rectal bleeding                                                          257
+General Pain                                                             257
+Restlessness                                                             255
+hot flush                                                                254
+Upset stomach                                                            252
+Right Hip Pain                                                           251
+Aphasia                                                                  246
+arythymia                                                                245
+Tingling in legs                                                         244
+itchy privates                                                           244
+Raynaud's                                                                243
+sleep craving                                                            241
+Rhinitis                                                                 241
+Cold intolerance                                                         240
+sinus pain                                                               240
+Postural hypotension                                                     240
+Derealization                                                            240
+Spoon Count                                                              239
+Mental fog                                                               238
+Tenesmus                                                                 238
+hyperfocus                                                               238
+sleep disturbance                                                        238
+Psoriasis                                                                238
+Inattention                                                              237
+right wrist pain                                                         236
+adrenal surges                                                           235
+PEM                                                                      234
+ovarian pain                                                             232
+Orthostatic Intolerance                                                  229
+Lack of energy                                                           227
+easy to anger                                                            225
+STARTLE                                                                  224
+Hip stiffness                                                            224
+Low libido                                                               223
+left wrist pain                                                          223
+Muscle fatigue                                                           223
+Hemorrhoid                                                               220
+Chronic Fatigue                                                          219
+Eating problems                                                          219
+Queasy stomach                                                           216
+Heart Rate                                                               216
+Sex drive                                                                214
+Compulsive Behavior                                                      214
+Cold nose                                                                214
+Hand arthritis                                                           212
+Increased appetite                                                       211
+skin rashes                                                              209
+Emotional                                                                207
+slow                                                                     206
+Altered mental status                                                    205
+Eczema                                                                   203
+Sleep Paralysis                                                          202
+Executive dysfunction                                                    199
+sciatica                                                                 199
+e - silence                                                              198
+itchy eyes                                                               198
+Panic                                                                    198
+Joint swelling                                                           197
+proprioception issues                                                    196
+Dry eyes                                                                 196
+Shaking hands                                                            196
+Numbness toes                                                            195
+Feet Numb                                                                195
+burning hands                                                            195
+INR                                                                      195
+Bladder pain                                                             194
+Hayfever                                                                 193
+Warm Sensation - Left Side of Head                                       191
+Sinus                                                                    191
+psychopathy                                                              190
+Falling asleep                                                           189
+Menorrhagia                                                              189
+Leg cramps                                                               189
+Facial Pain                                                              189
+Flashbacks                                                               189
+Elevated temperature                                                     189
+Poor concentration                                                       188
+Muscle pain arms                                                         188
+Passing Blood                                                            186
+Racing thoughts                                                          186
+Head Pain                                                                186
+Daytime lie down                                                         185
+Muscle pain legs                                                         185
+Skin sensitive to touch                                                  185
+Sleep procrastination                                                    184
+Ankle issues                                                             183
+shakiness                                                                183
+Jaw Clenching                                                            183
+Migraine aura                                                            183
+Heel pain                                                                182
+Ovulation                                                                179
+sleep drunk                                                              179
+Unable to support head                                                   177
+Headache or migraine                                                     176
+Body pain                                                                175
+PTSD                                                                     174
+Feeling worthless                                                        173
+Lymphadenopathy                                                          172
+stigmastis                                                               172
+Allergic reaction                                                        172
+photosensitivity                                                         171
+Distance/depth perception altered                                        171
+physical discomfort                                                      171
+Smell sensitivity                                                        171
+Decreased appetite                                                       169
+Thigh tingling                                                           169
+Shoulder tingling                                                        169
+Acute injury of last week from mammogram                                 169
+Jittery                                                                  169
+Acute pain                                                               168
+e - travels                                                              168
+Painful Bowel Movement                                                   166
+Distended stomach                                                        165
+Eye strain                                                               164
+Widespread Bone Pain                                                     164
+Easy bruising                                                            164
+Forgetfulness                                                            164
+Hours Worked                                                             164
+Double vision                                                            163
+Sore - Left Big Toe Joint                                                163
+Nail biting                                                              162
+Trouble Sleeping                                                         162
+Unable to Leave the House/fear                                           162
+hand stiffness                                                           161
+Can't Get Myself together on Time                                        161
+migraine other                                                           161
+Grey out                                                                 161
+malaise                                                                  160
+Unable to follow a storyline                                             157
+cataplexy                                                                156
+Low grade fever                                                          156
+painful urination                                                        154
+Ringing in ears                                                          153
+Hip pain left                                                            153
+Excessive Daytime Sleepiness                                             153
+Paranoia                                                                 152
+Cough/ cold/ flu                                                         151
+DOMS                                                                     150
+Numbness fingers                                                         150
+Overactive bladder                                                       148
+Post-nasal drip                                                          148
+Chills                                                                   148
+sneezing                                                                 147
+Temperature Regulation                                                   147
+Migralepsy                                                               147
+Blurry Vision                                                            146
+Arm joint pain                                                           146
+Fibromyalgia                                                             144
+Menstrual migraine                                                       144
+Right Elbow Ache                                                         144
+Toe pain                                                                 143
+Hypersexuality                                                           143
+Altered Sleep Schedule                                                   142
+Chest tightness                                                          142
+muscle pain                                                              140
+Leg weakness                                                             139
+Sound sensitivity                                                        139
+Seizures                                                                 139
+Lack of Appetite                                                         138
+Morning Stiffness                                                        138
+Mental fatigue (fog)                                                     138
+Mouth ulcers                                                             138
+Numbness on legs                                                         138
+right shoulder pain                                                      138
+slowness of walking                                                      137
+Fibro Pain Shoulders Arms                                                137
+Red bumps on feet                                                        137
+Fibro Pain Legs                                                          137
+Self-neglect                                                             136
+Talking tiring                                                           135
+Sensivity-Skin                                                           135
+Clogged ears                                                             134
+Loose joints                                                             134
+Gender dysphoria                                                         133
+Hyperactivity                                                            131
+Body dysmorphia or poor body image                                       131
+psychosis                                                                131
+Crash Day                                                                130
+pre-syncope                                                              129
+Legs Tingling                                                            129
+Earache                                                                  129
+Gut pain                                                                 128
+Anemia                                                                   128
