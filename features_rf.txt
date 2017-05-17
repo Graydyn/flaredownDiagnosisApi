@@ -44,7 +44,6 @@ trackable_name_Chills
 trackable_name_Chronic Fatigue
 trackable_name_Chronic pain
 trackable_name_Cold
-trackable_name_Cold Extremities
 trackable_name_Cold feet
 trackable_name_Cold hands
 trackable_name_Cold intolerance
@@ -282,7 +281,6 @@ trackable_name_Thoughts of self-harm
 trackable_name_Tingling hands
 trackable_name_Tingling in hand
 trackable_name_Tingling in hands and feet
-trackable_name_Tingling in legs
 trackable_name_Tinnitus
 trackable_name_Tiredness
 trackable_name_Toe pain

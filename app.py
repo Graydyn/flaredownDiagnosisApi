@@ -1,7 +1,7 @@
 from flask import Flask, request, Response
 from flask_restplus import Resource, Api, fields
 import sys
-import predict_mb as predict
+import predict_rf as predict
 import json
 from flask_cors import CORS
 from sklearn.externals import joblib
@@ -24,7 +24,7 @@ allData = api.model('data', {
 })
 
 
-model = joblib.load('model_mb.pkl')
+model = joblib.load('model_rf.pkl')
 mlb = joblib.load('mlb_simple.pkl')
 
 def loadFeatures():
